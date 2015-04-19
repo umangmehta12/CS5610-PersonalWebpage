@@ -1,0 +1,4 @@
+../../story/whatisnext.htm?../experiments/Exp0/             What is Next?
+introduction.html                              		    1.Introduction
+hovereffect.html                              		    2. Experiment on Hover effect on Image.
+story.txt						    Story file for this story

@@ -1,0 +1,386 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+   
+<head>
+
+<meta charset='utf-8' />   
+ <title>Image Accordian</title>
+    <style type="text/css">
+        .style1
+        {
+            font-family: Verdana;
+        }
+        .style2
+        {
+            font-family: Verdana;
+            font-size: small;
+        }
+        .style3
+        {
+            text-align: left;
+        }
+    </style>
+</head>
+<body background ="images/back1.jpg">
+
+    <p>
+        &nbsp;</p>
+    <p>
+        &nbsp;</p>
+    <p>
+        &nbsp;</p>
+    <h1 style="font-family: Verdana" class="style3">
+        <strong style="text-align: left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; IMAGE ACCORDIAN</strong></h1>
+    <div align="center" 
+        
+        style="margin: 100px 70px 50px 70px; width: auto; height: 4248px; color: #FFFFFF; background-color: #000000; text-align: left; position: relative; top: 0px; left: 0px;" 
+        dir="ltr">
+        <span class="style2">
+        <br />
+        In this Experiment I have created a CSS-only image accordion.I used a nested 
+        structure and apply a technique of radio buttons and the sibling combinator in 
+        order to control the slides. The idea is to make each item, or slide, 
+        “clickable” by overlaying the radio button over the entire slide, and change the 
+        position of a child element when clicking on it.<br />
+        <br />
+        Check out the Experiment here:
+        <a href="index.html" 
+            style="font-weight: bolder; color: #FFFFFF; font-family: Arial, Helvetica, sans-serif; font-size: large;">CLICK ME</a> <br />
+        <br />
+        <hr />
+        <strong>AIM :</strong>The main idea is to create a nested structure that will 
+        allow us to simply move the respective accordion slides to one side, i.e. moving 
+        one slide will move all its inner slides (the nested elements). Each of the 
+        figures will have the image, a radio button for controlling the “opening” of a 
+        slide, and a caption.<br />
+        <br />
+        <div align="center" 
+            style="background-color: #808080; position: relative; top: 0px; left: 83px; width: 590px; text-align: left;">
+        <span class="style2">
+        &nbsp;<br />
+            &lt;div class=&quot;ia-container&quot;&gt;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <br />
+&nbsp;&nbsp;&nbsp; &lt;figure&gt;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;img src=&quot;images/1.jpg&quot; alt=&quot;image01&quot; /&gt;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;input type=&quot;radio&quot; name=&quot;radio-set&quot; checked=&quot;checked&quot; /&gt;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;figcaption&gt;&lt;span&gt;True Colors&lt;/span&gt;&lt;/figcaption&gt;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;figure&gt;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;img src=&quot;images/2.jpg&quot; alt=&quot;image02&quot; /&gt;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;input type=&quot;radio&quot; name=&quot;radio-set&quot; /&gt;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;figcaption&gt;&lt;span&gt;Honest Light&lt;/span&gt;&lt;/figcaption&gt;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;figure&gt;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;!-- ... --&gt;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;figure&gt;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;!-- ... --&gt;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;figure&gt;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;!-- ... --&gt;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;figure&gt;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;!-- ... --&gt;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;figure&gt;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;!-- ... --&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <br />
+&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;figure&gt;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;!-- ... --&gt;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/figure&gt;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/figure&gt;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/figure&gt;
+            <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/figure&gt;
+            <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/figure&gt;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/figure&gt;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/figure&gt;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <br />
+&nbsp;&nbsp;&nbsp; &lt;/figure&gt;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;
+            <br />
+            &lt;/div&gt;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        </span>
+        </div>
+        <br />
+        <br />
+        
+        <hr style="margin-bottom: 7px" />
+        <strong>CSS</strong></strong>:<hr style="margin-bottom: 7px" />
+        <br />
+        I have given the slider a width value and hide the excess part with overflow 
+        hidden.<br />
+        <div style="position: relative; background-color: #808080; top: 0px; left: 82px; width: 592px;">
+            <br />
+            .ia-container
+            <br />
+            { width: 685px;<br />
+&nbsp;margin: 20px auto;<br />
+&nbsp;overflow: hidden;<br />
+&nbsp;box-shadow: 1px 1px 4px rgba(0,0,0,0.08);
+            <br />
+            border: 7px solid rgba(255,255,255,0.6); }<br />
+        </div>
+        <br />
+        The width is calculated as follows:<br />
+        <br />
+        ( (Number of images - 1) * 50px ) + 335px<br />
+        <br />
+        where 50 is the width of the visible piece of an image and 335 is the width of 
+        the image. In our case, that gives us ( (8 – 1) * 50px ) + 335px = 350px + 335px 
+        = 685px. Each of the figures will have a left value of 50 pixel (visible piece). 
+        That should be their position relatively to their parent. This makes the slider 
+        look like an accordion. The width of a figure is 335 pixel, just like the image 
+        inside. The figure will also have a transition for a smooth movement:<br />
+        <br />
+        <div style="position: relative; background-color: #808080; top: 0px; left: 83px; width: 593px;">
+            <br />
+            .ia-container figure {
+            <br />
+            position: absolute;<br />
+&nbsp;top: 0; left: 50px;
+            <br />
+            /* width of visible piece */
+            <br />
+            width: 335px; box-shadow: 0 0 0 1px rgba(255,255,255,0.6); transition: all 0.3s 
+            ease-in-out; }<br />
+        </div>
+        <br />
+        <br />
+        The first figure will be positioned completely to the left and we set the 
+        !important because we will use media queries later and we always want the left 
+        to be 0 for this figure. The position will be set to “relative” in order to give 
+        the slider a height:<br />
+        <br />
+        <div style="position: relative; background-color: #808080; top: 0px; left: 83px; width: 593px;">
+            <br />
+            .ia-container &gt; figure { position: relative; left: 0 !important; }<br />
+        </div>
+        <br />
+        The image will have a width of 100% so that it fills the figure:<br />
+        <br />
+        <div style="position: relative; background-color: #808080; top: 0px; left: 83px; width: 593px;">
+            <br />
+            .ia-container img { display: block; width: 100%; }<br />
+        </div>
+        <br />
+        Each of the radio buttons will cover the visible part of a slide. We set the 
+        opacity to 0 so that we can’t see it but still be able to click it. The z-index 
+        should be high, so that it covers everything else:<br />
+        <br />
+        <div style="position: relative; background-color: #808080; top: 0px; left: 83px; width: 593px;">
+            <br />
+            <br />
+            .ia-container input { position: absolute;<br />
+&nbsp;top: 0;
+            <br />
+            left: 0;<br />
+&nbsp;width: 50px;
+            <br />
+            /* just cover visible part */
+            <br />
+            height: 100%;
+            <br />
+            cursor: pointer;
+            <br />
+            border: 0;
+            <br />
+            padding: 0;<br />
+&nbsp;opacity: 0; z-index: 100;<br />
+&nbsp;-webkit-appearance: none;<br />
+&nbsp;-moz-appearance<br />
+            : none; appearance: none; }<br />
+        </div>
+        </span>
+        <br class="style1" />
+        <span class="style1">When an input is selected or clicked, we want the input to 
+        disappear. Actually, we could say something like width: 0px but because of some 
+        kind of strange behavior in the Chrome browser we still need it at the right 
+        side (the next item won’t trigger the hover if we haven’t hovered over the 
+        current input). We also want the sibling figures to move to the left with a 
+        transition:<br />
+        <br />
+        </span>
+        <span class="style2">
+        <div style="position: relative; background-color: #808080; top: 0px; left: 83px; width: 593px;">
+            <br />
+            .ia-container input:checked{
+            <br />
+            width: 5px;
+            <br />
+            left: auto;
+            <br />
+            right: 0px; }<br />
+&nbsp;.ia-container input:checked ~ figure { left: 335px;
+            <br />
+            transition: all 0.7s ease-in-out; }<br />
+        </div>
+        <br />
+        Giving two different transition durations (one in the “default” state, one when 
+        we check an input) will give us the “shuffle” effect. Playing with these values 
+        will give you different effects. The caption of the figure will cover all the 
+        element with a transparent dark overlay and the span will be positioned over the 
+        upper half of the figure initially:<br />
+        <br />
+        <div style="position: relative; background-color: #808080; top: 0px; left: 83px; width: 593px;">
+            <br />
+            .ia-container figcaption { width: 100%;
+            <br />
+            height: 100%;
+            <br />
+            background: rgba(87, 73, 81, 0.1);<br />
+&nbsp;position: absolute; top: 0px;<br />
+&nbsp;transition: all 0.2s linear; }<br />
+&nbsp;.ia-container figcaption span { position: absolute;<br />
+&nbsp;top: 40%;
+            <br />
+            margin-top: -30px;
+            <br />
+            right: 20px; left: 20px;
+            <br />
+            overflow: hidden;
+            <br />
+            text-align: center;<br />
+&nbsp;background: rgba(87, 73, 81, 0.3);
+            <br />
+            line-height: 20px; font-size: 18px;<br />
+&nbsp;opacity: 0; text-transform: uppercase;<br />
+&nbsp;letter-spacing: 4px; font-weight: 700;
+            <br />
+            padding: 20px; color: #fff;
+            <br />
+            text-shadow: 1px 1px 1px rgba(0,0,0,0.1); }
+            <br />
+        </div>
+        <br />
+        When a slide gets selected, we will remove the overlay by setting the opacity 
+        value of the RGBA to 0:<br />
+        <br />
+        <div style="position: relative; background-color: #808080; top: 0px; left: 83px; width: 593px;">
+            <br />
+            .ia-container input:checked + figcaption,<br />
+&nbsp;.ia-container input:checked:hover + figcaption{
+            <br />
+            background: rgba(87, 73, 81, 0); }<br />
+        </div>
+        <br />
+        The span will fade in and move from the top with a delay (the slide should open 
+        first):<br />
+        <br />
+        <div style="position: relative; background-color: #808080; top: 0px; left: 83px; width: 593px;">
+            <br />
+            .ia-container input:checked + figcaption span {
+            <br />
+            transition: all 0.4s ease-in-out 0.5s;
+            <br />
+            opacity: 1; top: 50%; }<br />
+        </div>
+        <br />
+        Since the last slide does not have any other slides coming from the right when 
+        we select it, the delay does not need to be as high (we’ve given the last radio 
+        input an id ia-selector-last):<br />
+        <div style="position: relative; background-color: #808080; top: 0px; left: 83px; width: 593px;">
+            <br />
+            .ia-container #ia-selector-last:checked + figcaption span {<br />
+&nbsp;transition-delay: 0.3s; }<br />
+        </div>
+        <br />
+        When we hover over the visible piece of a closed slide, we want a slight hover 
+        effect. But because the radio input is covering this part (it’s on top of all 
+        the other elements) we will use the adjacent sibling combinator (this requires 
+        that the input is directly followed by the figcaption element):<br />
+        <br />
+        <div style="position: relative; background-color: #808080; top: 0px; left: 83px; width: 593px;">
+            <br />
+            .ia-container input:hover + figcaption { background: rgba(87, 73, 81, 0.03); }<br />
+        </div>
+        </span>
+        <br class="style1" />
+        <span class="style1">All the following siblings of a checked input should get a 
+        low z-index, again to prevent some unwanted behavior in Chrome:<br />
+        <br />
+        </span>
+        <span class="style2">
+        <div style="position: relative; background-color: #808080; top: 0px; left: 83px; width: 593px;">
+            <br />
+            .ia-container input:checked ~ figure input{ z-index: 1; }<br />
+        </div>
+        <br />
+        to make it responsive I have added this<br />
+        <br />
+        <div style="position: relative; background-color: #808080; top: 0px; left: 83px; width: 593px;">
+            <br />
+            @media screen and (max-width: 720px) {
+            <br />
+            .ia-container {
+            <br />
+            width: 540px; }
+            <br />
+            .ia-container figure { left: 40px; width: 260px; }
+            <br />
+            .ia-container input { width: 40px; }<br />
+&nbsp;.ia-container input:checked ~ figure { left: 260px; }<br />
+&nbsp;.ia-container figcaption span { font-size: 16px; } }
+            <br />
+            <br />
+            @media screen and (max-width: 520px) {<br />
+&nbsp;.ia-container { width: 320px; }
+            <br />
+            .ia-container figure { left: 20px; width: 180px; }
+            <br />
+            .ia-container input { width: 20px; }<br />
+&nbsp;.ia-container input:checked ~ figure { left: 180px; }
+            <br />
+            .ia-container figcaption span { font-size: 12px; letter-spacing: 2px; padding: 
+            10px; margin-top: -20px; } }<br />
+        </div>
+        <br />
+        <p style="font-family: Arial, Helvetica, sans-serif; color: #FFFFFF">
+<a href="../../fileview/default.aspx?~/experiments/Exp15/index.html"
+   target="_blank" style="color: #FFFFFF">View Source</a>
+</p>
+<p style="color: #FFFFFF; font-family: Arial, Helvetica, sans-serif"><code>
+<a href="../../fileview/default.aspx?~/experiments/Exp15/css/style.css"
+    target="_blank" 
+        style="color: #FFFFFF; font-family: Arial, Helvetica, sans-serif; font-style: normal; font-size: small;">CSS file</a>
+</code></p>
+       <p>
+<a href="../../fileview/default.aspx?~/experiments/Exp15/js/accordian.js"
+   target="_blank" style="color: #FFFFFF; font-family: Arial, Helvetica, sans-serif">View JS</a>
+</p>
+        <p style="font-weight: bolder">
+            References: <a href="http://w3schools.org" style="color: #FFFFFF">
+            http://w3schools.org</a></p>
+        <p>
+            &nbsp;</p>
+        </span>
+    </div>
+    <p>
+        &nbsp;</p>
+
+</body>
+</html>

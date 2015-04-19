@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Experiment | Introduction</title><link rel="shortcut icon" href="../../images/icon.ico">
+<link rel="stylesheet" type="text/css" href="../css/experiment.css" />
+<link rel="stylesheet" href="../highlight.js/styles/default.css">
+<script src="../highlight.js/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+</head>
+<body>
+    <div id="wrapper">
+        <div id="headerwrap">
+        <div id="header">
+            <h1><p>Current Date and Time using Javascript</p></h1>
+        </div>
+        </div>
+        <div id="contentwrap">
+        <div id="content">
+           <p>
+<strong>Explanation</strong></br>
+I have tried to obtain the current date and time using Javascript.Here is the script for the same.</br>
+</p>
+		   <p><pre><code>
+        		
+document.write ('<p>Current time is: <span id="date-time">', new Date().toLocaleString(), '<\/span>.<\/p>')
+if (document.getElementById) onload = function () {
+	setInterval ("document.getElementById ('date-time').firstChild.data = new Date().toLocaleString()", 50)
+}
+		   </code></pre>
+		   </p>
+
+        </div>
+        </div>
+        <div id="footerwrap">
+        <div id="footer">
+		<p><strong><a href="../../fileview/default.aspx?~/experiments/Exp10/introduction.html"target="_blank">../../fileview/default.aspx?~/experiments/Exp10/introduction.html</a></strong></br>
+<strong><a href="../../fileview/default.aspx?~/experiments/Exp10/date_time.html"target="_blank">../../fileview/default.aspx?~/experiments/Exp9/1.html</a></strong></br>
+			<font color="black"><strong>References:</strong></font><br/>
+			<a href="http://www.w3schools.com/js/js_obj_date.asp" target="_blank">w3 schools.</a><br/>
+            <font color="black">&copy; <strong>UMANG MUKESH MEHTA</strong></font></p>
+        </div>
+        </div>
+    </div>
+</body>
+</html>

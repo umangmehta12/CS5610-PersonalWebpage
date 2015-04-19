@@ -1,0 +1,24 @@
+.change
+{position=relative;
+}
+.umangphoto
+{
+    width: 300px;
+    max-width: 20%;
+    position: absolute;
+    top: 0;
+    left:50%;
+    margin-left:-150px;
+ 
+}
+
+.umangphotolarge
+{
+    width: 700px;
+    max-width: 52%;
+    position: absolute;
+    top: 0;
+    left:50%;
+    display: none;
+    margin-left:-350px;
+}

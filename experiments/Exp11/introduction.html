@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Experiment | Introduction</title><link rel="shortcut icon" href="../../images/icon.ico">
+<link rel="stylesheet" type="text/css" href="../css/experiment.css" />
+<link rel="stylesheet" href="../highlight.js/styles/default.css">
+<script src="../highlight.js/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+</head>
+<body>
+    <div id="wrapper">
+        <div id="headerwrap">
+        <div id="header">
+            <h1><p>Movie Poster using CSS3</p></h1>
+        </div>
+        </div>
+        <div id="contentwrap">
+        <div id="content">
+           <p>
+<strong>Explanation</strong></br>
+I wanted to build something on movies which I might take up as my final project.I wanted to populate the movies using some 3d effect.</br>
+I did so by using webkit tansition and perspective property.On clicking the link the user is directed to the corresponding imdb movie</br>
+</br>
+</p>
+		   <p><pre><code>
+#movieposters { list-style:none; margin:100px 0; height:550px; }
+#movieposters li { display:inline; float:left;
+	-webkit-perspective: 500; -webkit-transform-style: preserve-3d;
+	-webkit-transition-property: perspective; -webkit-transition-duration: 0.5s; }
+#movieposters li:hover { -webkit-perspective: 5000; }
+
+		   </code></pre>
+		   </p>
+
+        </div>
+        </div>
+        <div id="footerwrap">
+        <div id="footer">
+		<p><strong><a href="../../fileview/default.aspx?~/experiments/Exp11/introduction.html"target="_blank">../../fileview/default.aspx?~/experiments/Exp11/introduction.html</a></strong></br>
+<strong><a href="../../fileview/default.aspx?~/experiments/Exp11/test.html"target="_blank">../../fileview/default.aspx?~/experiments/Exp11/test.html</a></strong></br>
+<strong><a href="../../fileview/default.aspx?~/experiments/Exp11/1.css"target="_blank">../../fileview/default.aspx?~/experiments/Exp11/1.css</a></strong></br>
+			<font color="black"><strong>References:</strong></font><br/>
+			<a href="http://css-tricks.com" target="_blank">CSS Tricks</a><br/>
+			<a href="http://stackoverflow.com" target="_blank">Stack Overflow</a><br/>
+            <font color="black">&copy; <strong>UMANG MUKESH MEHTA</strong></font></p>
+        </div>
+        </div>
+    </div>
+</body>
+</html>

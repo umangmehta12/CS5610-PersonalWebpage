@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Experiment | Introduction</title><link rel="shortcut icon" href="../../images/icon.ico">
+<link rel="stylesheet" type="text/css" href="../css/experiment.css" />
+<link rel="stylesheet" href="../highlight.js/styles/default.css">
+<script src="../highlight.js/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+</head>
+<body>
+    <div id="wrapper">
+        <div id="headerwrap">
+        <div id="header">
+            <h1><p>Responsive Webpage</p></h1>
+        </div>
+        </div>
+        <div id="contentwrap">
+        <div id="content">
+           <p>
+<strong>Explanation</strong></br>
+I have made a Responsive Homepage Layout using Media Querries and viewport tag.</br>
+I have a drop down menu Jquerry enabled which gives cool effect in mobile view.
+
+</p>
+		   <p><pre><code>
+        		$(function() {
+			var pull 		= $('#pull');
+				menu 		= $('nav ul');
+				menuHeight	= menu.height();
+
+			$(pull).on('click', function(e) {
+				e.preventDefault();
+				menu.slideToggle();
+			});
+
+			$(window).resize(function(){
+        		var w = $(window).width();
+        		if(w > 320 && menu.is(':hidden')) {
+        			menu.removeAttr('style');
+        		}
+    		});
+		});
+
+		   </code></pre>
+		   </p>
+
+        </div>
+        </div>
+        <div id="footerwrap">
+        <div id="footer">
+		<p><strong><a href="../../fileview/default.aspx?~/experiments/Exp8/introduction.html"target="_blank">../../fileview/default.aspx?~/experiments/Exp8/introduction.html</a></strong></br>
+<strong><a href="../../fileview/default.aspx?~/experiments/Exp8/Default.html"target="_blank">../../fileview/default.aspx?~/experiments/Exp8/Default.html</a></strong></br>		  
+		  <strong><a href="../../fileview/default.aspx?~/experiments/Exp8/mystyle.css"target="_blank">../../fileview/default.aspx?~/experiments/Exp7/mystyle.css</a></strong></br>
+			<font color="black"><strong>References:</strong></font><br/>
+			<a href="http://www.w3.org/TR/css3-mediaqueries/" target="_blank">w3.org</a><br/>
+			<a href="http://www.htmlgoodies.com/beyond/css/introduction-to-css-media-queries.html" target="_blank">Html Goodies</a><br/>
+            <font color="black">&copy; <strong>UMANG MUKESH MEHTA</strong></font></p>
+        </div>
+        </div>
+    </div>
+</body>
+</html>

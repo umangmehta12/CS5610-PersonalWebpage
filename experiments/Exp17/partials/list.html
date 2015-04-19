@@ -1,0 +1,41 @@
+<section class="bookspage">
+<div class="search">
+			<h1>Houghton Mifflin Harcourt &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp Books</h1>
+			<label> Search:</label>
+			<input ng-model="check" id="search" placeholder="Search for Books" autofocus analytics-on>
+			<label class="formgroup">by:
+				<select ng-model="order">
+                 <option value="name">Name</option>
+                 <option value="author">Author</option>
+				</select></label>
+
+				<label class="formgroup">
+                 <input type="radio" ng-model="direction" name="direction" checked></input>
+                 Ascending
+				</label>
+				<label class="formgroup">
+                 <input type="radio" ng-model="direction" name="direction" value="reverse"></input>
+				Descending
+				</label>
+		</div>
+		 <ul class="booklist">
+		 <li class="book cf" ng-repeat="item in book| filter:check | orderBy:order:direction ">
+				 	<a href="#/details/{{book.indexOf(item)}}">
+		        	  <img ng-src="img/{{item.shortname}}_tn.jpg" alt="Photo of the {{item.name}}">
+						 <div class="info">
+				         <h2>{{item.name}}</h2>
+				         <h3>{{item.author}}</h3>
+						 </div> 	
+			 		 </a>
+		 </li>
+		 </ul>
+		<!-- <script type="text/javascript">
+				dl.searchkey="{{item.name}}";
+			</script>
+		<script type="text/javascript">
+				dl.searchkey=document.getElementById("search").value;
+			</script>
+			<script type="text/javascript">
+             console.log(document.getElementById("search").value);
+			</script>-->
+</section>

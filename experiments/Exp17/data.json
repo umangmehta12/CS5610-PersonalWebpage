@@ -1,0 +1,56 @@
+[
+  {
+    "name":"The Gourmet Cookbook",
+    "shortname":"Gourmet_Cookbook",
+    "author":"Ruth Reichl",
+    "bio":"For the past six decades, Gourmet magazine has shaped the tastes of America, publishing the best work of the foremost names in the world of food. You'll create the perfect dish with more flavor and more flair using The Gourmet Cookbook."
+  },
+  {
+    "name":"The Polar Express",
+    "shortname":"Polar_Express",
+    "author":"Chris Van Allsburg",
+    "bio":"One Christmas Eve many years ago, a boy lies in bed, listening hard for the bells of Santa’s sleigh, which he has been told by a friend do not exist. Later that night he hears not bells but a very different sound. He looks out his window and is astounded to see a steam engine parked in front of his house! The conductor invites him to board the Polar Express, a train filled with children on their way to the North Pole."
+  },
+  {
+    "name":"Curious George",
+    "shortname":"Curious_George",
+    "author":"Margret Rey and H. A. Rey",
+    "bio":"Curious George is a children's book written and illustrated by Margret Rey and H. A. Rey, and published by Houghton Mifflin in 1941.[1] It is the first book in the Curious George series and tells the story of a monkey called George and his adventures with the Man with the Yellow Hat."
+  },
+  {
+    "name":"The Lord of Rings",
+    "shortname":"Lord_Rings",
+    "author":"J. R. R. Tolkien",
+    "bio":"The Lord of the Rings is an epic high fantasy novel written by English author J. R. R. Tolkien. The story began as a sequel to Tolkien's 1937 children's fantasy novel The Hobbit, but eventually developed into a much larger work. It was written in stages between 1937 and 1949, much of it during World War II.[1] It is the second best-selling novel ever written, with over 150 million copies sold."
+  },
+  {
+    "name":"Just Grace",
+    "shortname":"Just_Grace",
+    "author":"Charise Mercile Harper",
+    "bio":"Meet third-grader Grace Stewart, who gets stuck with the name “Just Grace” when she tries to distinguish herself from the three other Graces in her class. Grace is plenty different, though. She has a “teeny-tiny superpower,” for instance—she can tell if someone is unhappy and often tries to fix it. But sometimes her good intentions backfire..."
+  },
+  {
+    "name":"Sisters 8",
+    "shortname":"Sisters_8",
+    "author":"Lauren Baratz-Logsted",
+    "bio":"It’s a good old-fashioned mystery with missing (or dead) parents, nosy neighbors, talking refrigerators, foul-smelling fruitcake (is there any other kind?), and even a little magic. Eight little girls, eight cats, and one big mystery—let the fun begin"
+  },
+  {
+    "name":"What came from the stars",
+    "shortname":"What_came_from_stars",
+    "author":"Gary.D.Schmidt",
+    "bio":"The Valorim are about to fall to a dark lord when they send a necklace containing their planet across the cosmos, hurtling past a trillion stars . . . all the way into the lunchbox of Tommy Pepper, sixth grader, of Plymouth, Mass."
+  },
+  {
+    "name":"Guyku- A year for Haiku boys",
+    "shortname":"Guyku",
+    "author":"Bob Rackza",
+    "bio":"The wind and I play tug-of-war with my new kite. The wind is winning. When you're a guy, nature is one big playground--no matter what the season."
+  },
+  {
+    "name":"Life as we know it",
+    "shortname":"image",
+    "author":"Susan Beth Pfeffer",
+    "bio":"Miranda's disbelief turns to fear in a split second when an asteroid knocks the moon closer to the earth. How should her family prepare for the future when worldwide tsunamis wipe out the coasts, earthquakes rock the continents, and volcanic ash blocks out the sun? As summer turns to Arctic winter, Miranda, her two brothers, and their mother retreat to the unexpected safe haven of their sunroom, where they subsist on stockpiled food and limited water in the warmth of a wood-burning stove. In her journal, Miranda records the events of each desperate day, while she and her family struggle to hold on to their most priceless resource—hope."
+  }
+]

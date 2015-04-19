@@ -1,0 +1,20 @@
+﻿../story/whatisnext.htm?../experiments/                   What is next?
+../story/index.htm?../experiments/Exp0/                   1. Experiment on Hover effect on Image.
+../story/index.htm?../experiments/Exp1/                   2. Experiment on Finding Route on Google maps.
+../story/index.htm?../experiments/Exp2/                   3. Current Location on Webpage using Google API.
+../story/index.htm?../experiments/Exp3/                   4. Experiment on adding Videos using iframe.
+../story/index.htm?../experiments/Exp4/                   5. Experiment on adding Audios.
+../story/index.htm?../experiments/Exp5/                   6. Experiment on Cube 3D Image Gallery with Animation.  
+../story/index.htm?../experiments/Exp6/                   7. Experiment on Cube 3D Image Gallery with Animation with real life images.      
+../story/index.htm?../experiments/Exp7/                   8. jQuery drag items on timeline     
+../story/index.htm?../experiments/Exp8/                   9. Responsive Web page Homepage Demo
+../story/index.htm?../experiments/Exp9/                   10. Login Page of the website
+../story/index.htm?../experiments/Exp10/                  11. Date and time using Javascript
+../story/index.htm?../experiments/Exp11/                  12. Movie poster 3D Effects as start up to project  
+../story/index.htm?../experiments/Exp12/                  13. Developed various types of buttons
+../story/index.htm?../experiments/Exp13/                  14. Designed the User Input for the final project 
+../story/index.htm?../experiments/Exp14/                  15. Login Page
+../story/index.htm?../experiments/Exp15/                  16. Image Accordian
+../story/index.htm?../experiments/Exp16/                  17. Restaurant Menu
+../story/index.htm?../experiments/Exp17/                  18. Book Publication Single Page App (AngularJS,NodeJS,GruntJS)
+../experiments/story.txt                                  Story file for this story

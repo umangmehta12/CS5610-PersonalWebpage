@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Experiment | Introduction</title><link rel="shortcut icon" href="../../images/icon.ico">
+<link rel="stylesheet" type="text/css" href="../css/experiment.css" />
+<link rel="stylesheet" href="../highlight.js/styles/default.css">
+<script src="../highlight.js/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+</head>
+<body>
+    <div id="wrapper">
+        <div id="headerwrap">
+        <div id="header">
+            <h1><p>Hover Effect on Images</p></h1>
+        </div>
+        </div>
+        <div id="contentwrap">
+        <div id="content">
+           <p>I have implemented <a href="http://net4.ccs.ne.edu/home/rasala" target="_blank">Prof.Rasala</a> Image Hover Effect.<br/>
+		   In this Experiment I when the mouse hover's over the static visible image it enlarges to a different Inage.<br/>
+		   <strong>Application</strong>:The Image effect on hover can be used in places wherein there is not much space to display two Images.
+		   The following is the Javascript and CSS which are used to Implement the hover effect.<br/>
+		   <h1><strong>Javascript</strong></h1>
+		   <pre><code>
+		   function bigImg(image) {
+						document.getElementById("normal").style.display = "none";
+						document.getElementById("large").style.display = "block";
+								   }
+			function normalImg(image) {
+						document.getElementById("normal").style.display = "block";
+						document.getElementById("large").style.display = "none";
+								}
+		   </code>
+		   </pre>
+		   <h1><strong>CSS</strong></h1>
+		   <pre><code>
+.change
+{position=relative;
+}
+.umangphoto
+{
+    width: 300px;
+    max-width: 20%;
+    position: absolute;
+    top: 0;
+    left:50%;
+    margin-left:-150px;
+ 
+}
+
+.umangphotolarge
+{
+    width: 700px;
+    max-width: 52%;
+    position: absolute;
+    top: 0;
+    left:50%;
+    display: none;
+    margin-left:-350px;
+}
+
+		   </code></pre>
+		   </p>
+        
+		</div>
+        </div>
+        <div id="footerwrap">
+        <div id="footer">
+		    <p><code>
+			<strong><a href="../../fileview/default.aspx?~/experiments/Exp0/introduction.html"target="_blank">../../fileview/default.aspx?~/experiments/Exp0/introduction.html</a></strong></br></code>
+            <strong><a href="../../fileview/default.aspx?~/experiments/Exp0/hovereffect.html"target="_blank">../../fileview/default.aspx?~/experiments/Exp0/hovereffect.html</a></strong></br>
+			<font color="black">&copy; <strong>UMANG MUKESH MEHTA</strong></font></p>
+        </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<h1> 3D Restaurant Menu</h1>
+<p>
+I wanted to make my project on a Restaurant Database / Recipe book as indicated by Prof.Rasala during my meet with him regarding approval for project.
+So I figured what I actually wanted to start off with was the 3D Menu for my Recipes/Restaurant.I was able to design it with CSS using media transfors but found errors in Jquerry and Javascript Implementation.
+It was when I consulted Srinivas who helped me with that part.So in a way it was a collaborated project.I was responsible for all the transforms and the look and he made the opening form and the JQuerry effects.
+</p>
+<p>He helped me in correcting the following code.
+<pre>
+viewDetails = function( recipe ) {
+ 
+    var title = recipe.text(),
+        img = recipe.data( &apos;thumb&apos; ),
+        description = recipe.parent().next().text(),
+        url = recipe.attr( &apos;href&apos; );
+ 
+    var $modal = $( &apos;&lt;div class=&quot;rm-modal&quot;&gt;&lt;div class=&quot;rm-thumb&quot; style=&quot;background-image: url(&apos; + img + &apos;)&quot;&gt;&lt;/div&gt;&lt;h5&gt;&apos; + title + &apos;&lt;/h5&gt;&lt;p&gt;&apos; + description + &apos;&lt;/p&gt;&lt;a href=&quot;&apos; + url + &apos;&quot;&gt;See the recipe&lt;/a&gt;&lt;span class=&quot;rm-close-modal&quot;&gt;x&lt;/span&gt;&lt;/div&gt;&apos; );
+ 
+    $modal.appendTo( $container );
+ 
+    var h = $modal.outerHeight( true );
+    $modal.css( &apos;margin-top&apos;, -h / 2 );
+ 
+    setTimeout( function() {
+ 
+        $container.addClass( &apos;rm-in rm-nodelay&apos; );
+ 
+        $modal.find( &apos;span.rm-close-modal&apos; ).on( &apos;click&apos;, function() {
+ 
+            $container.removeClass( &apos;rm-in&apos; );
+ 
+        } );
+     
+    }, 0 );
+ 
+};
+</pre></p>

@@ -1,0 +1,4 @@
+../../story/whatisnext.htm?../experiments/Exp6/             What is Next?
+introduction.html                                           1.Introduction
+cube_image.html                                             2.Real Time Images on 3D Cube Gallery
+story.txt						    Story file for this story

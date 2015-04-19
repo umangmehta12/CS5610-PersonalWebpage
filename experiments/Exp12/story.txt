@@ -1,0 +1,4 @@
+../../story/whatisnext.htm?../experiments/Exp12/             What is Next?
+introduction.html                               	    1.Introduction
+1.html                                  		    2.Buttons
+story.txt                                     		    Story file for this story

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Experiment | Current Location</title><link rel="shortcut icon" href="../../images/icon.ico">
+<link rel="stylesheet" type="text/css" href="../css/experiment.css" />
+<link rel="stylesheet" href="../highlight.js/styles/default.css">
+<script src="../highlight.js/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+</head>
+<body>
+    <div id="wrapper">
+        <div id="headerwrap">
+        <div id="header">
+            <h1><p>Current Location on Webpage using Google API</p></h1>
+        </div>
+        </div>
+        <div id="contentwrap">
+        <div id="content">
+           <p>In this experiment I have tried to Implement Google API Maps for getting the current location.I have passed the lattitude and Longitude of Boston</br>
+		   to make the user a fixed coordinate of Boston.
+		   The following is the <strong>Script</strong> that I have used Implement this.
+		   </p>
+		   <p><pre><code>
+				function initialize() {
+						var mapping = document.getElementById('mapping');
+						var map_options = {center: new google.maps.LatLng(42.337144,-71.094938),
+						zoom: 8,
+						mapTypeId: google.maps.MapTypeId.ROADMAP}
+						var map = new google.maps.Map(mapping, map_options)}
+				google.maps.event.addDomListener(window, 'load', initialize);
+		   </code></pre></p>
+        
+		</div>
+        </div>
+        <div id="footerwrap">
+        <div id="footer">
+           <p><strong><a href="../../fileview/default.aspx?~/experiments/Exp2/introduction.html"target="_blank">../../fileview/default.aspx?~/experiments/Exp2/introduction.html</a></strong></br>
+			<font color="black"><strong>References:</strong></font><br/>
+			<a href="http://stackoverflow.com" target="_blank">Stack Overflow</a><br/>
+			<a href="http://net4.ccs.neu.edu/home/rasala" target="_blank">Prof.Rasala's Experiments on Google Maps</a><br/>
+            <font color="black">&copy; <strong>UMANG MUKESH MEHTA</strong></font></p>
+        </div>
+        </div>
+    </div>
+</body>
+</html>

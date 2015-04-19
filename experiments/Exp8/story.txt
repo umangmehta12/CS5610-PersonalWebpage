@@ -1,0 +1,4 @@
+../../story/whatisnext.htm?../experiments/Exp8/             What is Next?
+introduction.html                               	    1.Introduction
+Default.html                                  		    2.Responsive Webpage
+story.txt                                     		    Story file for this story

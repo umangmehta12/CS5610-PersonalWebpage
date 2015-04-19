@@ -1,0 +1,314 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"$sc",
+				"$scope	AngularJS"
+			],
+			[
+				"$rou",
+				"$routeParams	AngularJS"
+			],
+			[
+				"$routr",
+				"$routeParams	AngularJS"
+			],
+			[
+				"$ro",
+				"$routeParams	AngularJS"
+			],
+			[
+				"$route",
+				"$routeParams	AngularJS(DI)"
+			],
+			[
+				"con",
+				"controller	AngularJS"
+			],
+			[
+				"a",
+				"angular-route.js"
+			],
+			[
+				"l",
+				"link	Tag"
+			],
+			[
+				"scope",
+				"$scope	AngularJS"
+			],
+			[
+				"in",
+				"input	Tag"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"html",
+				"Snippet: html"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"i",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"pac",
+				"Package Control: Remove Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"bracke",
+				"BracketHighlighter: Remove Brackets"
+			],
+			[
+				"PACKA",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 472.0
+	},
+	"console":
+	{
+		"height": 146.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/mehtau/Desktop/angulartics-master/samples/adobe-analytics.html",
+		"/C/Users/mehtau/Desktop/AngularJS/js/controllers.js",
+		"/C/Users/mehtau/Desktop/AngularJS/js/app.js",
+		"/C/Users/mehtau/Desktop/angulartics-master/Gruntfile.js",
+		"/C/Users/mehtau/Desktop/angulartics-master/bower.json",
+		"/C/Users/mehtau/Desktop/AngularJS/index.html",
+		"/C/Users/mehtau/Desktop/angulartics-master/package.json",
+		"/C/Users/mehtau/Desktop/angulartics-0.15.19/samples/adobe-analytics.html",
+		"/C/Users/mehtau/Desktop/AngularJS/partials/details.html",
+		"/C/Users/mehtau/Desktop/AngularJS/partials/list.html",
+		"/C/Users/mehtau/Desktop/AngularJS/js/data.json",
+		"/C/Users/mehtau/Documents/game/game.html",
+		"/C/Users/mehtau/Documents/game/js/mygame.js",
+		"/C/Users/mehtau/Desktop/Ex_Files_UaR_AngularJS/Exercise Files/03_02/finished/angular/js/controllers.js",
+		"/C/Users/mehtau/Desktop/AngularJS/css/style.css",
+		"/C/Users/mehtau/Desktop/Ex_Files_UaR_AngularJS/Exercise Files/03_06/finished/angular/index.html",
+		"/C/Users/mehtau/Desktop/Ex_Files_UaR_AngularJS/Exercise Files/02_02/finished/angular/js/controllers.js",
+		"/C/Users/mehtau/AppData/Roaming/Sublime Text 2/Packages/JSHint Gutter/.jshintrc",
+		"/C/Users/mehtau/Desktop/Ex_Files_UaR_AngularJS/Exercise Files/02_01/finished/angular/index.html",
+		"/C/Users/mehtau/Desktop/Ex_Files_UaR_AngularJS/Exercise Files/02_01/finished/angular/css/style.css",
+		"/C/Users/mehtau/Desktop/Ex_Files_UaR_AngularJS/Exercise Files/02_01/finished/angular/js/controllers.js",
+		"/C/Users/mehtau/Desktop/AngularJS/img/image_tn.jpg",
+		"/C/Users/mehtau/Desktop/Ex_Files_UaR_AngularJS/Exercise Files/02_01/start/data.json",
+		"/C/Users/mehtau/Desktop/waypoints.js",
+		"/C/Users/mehtau/Desktop/AngularJS/controllers.js",
+		"/C/Users/mehtau/Desktop/Ex_Files_UaR_AngularJS/Exercise Files/01_03/finished/angular/index.html",
+		"/C/Users/mehtau/Desktop/AngularJS/angularJS.sublime-project",
+		"/C/Users/mehtau/Desktop/AngularJS/angularJS.sublime-workspace",
+		"/C/Users/mehtau/Desktop/Require JS/index.html",
+		"/C/Users/mehtau/Desktop/Require JS/message.js",
+		"/C/Users/mehtau/Desktop/Require JS/test1.js",
+		"/C/Users/mehtau/Desktop/Require JS/jquery.js",
+		"/C/Users/mehtau/AppData/Roaming/Sublime Text 2/Packages/AngularJS/AngularJS-sublime-package.sublime-settings",
+		"/C/Users/mehtau/AppData/Roaming/Sublime Text 2/Packages/JSHint Gutter/Default (Windows).sublime-keymap",
+		"/C/Users/mehtau/AppData/Roaming/Sublime Text 2/Packages/Grunt/SublimeGrunt.sublime-settings",
+		"/C/Users/mehtau/AppData/Roaming/Sublime Text 2/Packages/AdvancedNewFile/Default (Windows).sublime-keymap",
+		"/C/Users/mehtau/AppData/Roaming/Sublime Text 2/Packages/Pretty JSON/Pretty JSON.sublime-settings",
+		"/C/Users/mehtau/Desktop/Require JS/new.css",
+		"/C/Users/mehtau/Desktop/Require JS/require.js",
+		"/C/Users/mehtau/Desktop/Require JS/new.html",
+		"/C/Users/mehtau/AppData/Roaming/Sublime Text 2/Packages/DocBlockr/Base File.sublime-settings",
+		"/C/Users/mehtau/AppData/Roaming/Sublime Text 2/Packages/AngularJS/AngularJS-js-completions.sublime-settings",
+		"/C/Users/mehtau/AppData/Roaming/Sublime Text 2/Packages/Emmet/Default (Windows).sublime-keymap",
+		"/C/Users/mehtau/AppData/Roaming/Sublime Text 2/Packages/JSLint/Default.sublime-keymap",
+		"/C/Users/mehtau/Desktop/Require JS/new.js",
+		"/C/Users/mehtau/Desktop/Require JS/[cmd:  [u'node', u'C:/Users/mehtau/AppData/Roaming/Sublime Text 2/Packages/JSLint/linter.js', u'--predef', u\"['angular', 'document', '/$', '_', 'JQuery', 'FB']\", u'--sloppy', u'--indent', u'2', u'--node', u'--nomen', u'--vars', u'--plusplus', u'--stupid', u'--todo', u'C:/Users/mehtau/Desktop/Require JS/message.js']]",
+		"/C/Users/mehtau/AppData/Roaming/Sublime Text 2/Packages/JSLint/JSLint.sublime-settings",
+		"/C/Users/mehtau/AppData/Roaming/Sublime Text 2/Packages/BracketHighlighter/bh_core.sublime-settings",
+		"/C/Users/mehtau/AppData/Roaming/Sublime Text 2/Packages/User/SublimeLinter.sublime-settings",
+		"/C/Users/mehtau/AppData/Roaming/Sublime Text 2/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/C/Users/mehtau/Desktop/Require JS/james.css",
+		"/C/Users/mehtau/Desktop/Require JS/name.js",
+		"/C/Users/mehtau/AppData/Roaming/Sublime Text 2/Packages/AdvancedNewFile/README.md",
+		"/C/Users/mehtau/AppData/Roaming/Sublime Text 2/Packages/BracketHighlighter/Example.sublime-keymap",
+		"/C/Users/mehtau/AppData/Roaming/Sublime Text 2/Packages/User/bh_core.sublime-settings",
+		"/C/Users/mehtau/Desktop/Require JS/test1",
+		"/C/Users/mehtau/Desktop/Require JS/add",
+		"/C/Users/mehtau/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/C/Users/mehtau/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/mehtau/Desktop/Require JS/check.js",
+		"/C/Users/mehtau/AppData/Roaming/Sublime Text 2/Packages/User/Distraction Free.sublime-settings",
+		"/C/Users/mehtau/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/mehtau/Desktop/Require JS/main",
+		"/C/Users/mehtau/Desktop/Require JS/index1.html",
+		"/C/Users/mehtau/Desktop/Rjs.js",
+		"/C/Users/mehtau/Desktop/Ex_Files_JS_EssT_2011/Exercise Files/Chap01/simple_finished.html",
+		"/C/Users/mehtau/Desktop/ajax",
+		"/C/Curious World/index.html",
+		"/C/Users/mehtau/Desktop/1.html"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"bookinfo",
+			"artist",
+			"\"",
+			"reknown",
+			"artist cf",
+			"cf",
+			"book cf",
+			"artist",
+			"touch"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.532941176471,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 221.0,
+	"status_bar_visible": true
+}

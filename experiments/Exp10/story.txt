@@ -1,0 +1,4 @@
+../../story/whatisnext.htm?../experiments/Exp10/             What is Next?
+introduction.html                               	    1.Introduction
+date_time.html                                       	    2.Current date and time.
+story.txt                                     		    Story file for this story

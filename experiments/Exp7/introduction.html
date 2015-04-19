@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Experiment | Introduction</title><link rel="shortcut icon" href="../../images/icon.ico">
+<link rel="stylesheet" type="text/css" href="../css/experiment.css" />
+<link rel="stylesheet" href="../highlight.js/styles/default.css">
+<script src="../highlight.js/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+</head>
+<body>
+    <div id="wrapper">
+        <div id="headerwrap">
+        <div id="header">
+            <h1><p>Dragging Items to Timeline Plugin</p></h1>
+        </div>
+        </div>
+        <div id="contentwrap">
+        <div id="content">
+           <p>
+<em>Explanation</em>
+I have created a Timeline Plugin and some Items.The Timeline is the grey Bpx and the other items are of different colors.</br>
+Its an Interactive plugin which helps the User to click on a particular Item and drag it into the grey box.</br>
+The item does not drop untill it is completely inside the grey box.I have put up a condition by means of which the item returns back to its original</br>
+location.
+</p>
+		   <p><pre><code>
+        //drag the item around the screen
+		function dragItem(e){
+			
+			//if no active item done do owt
+			if(!activeItem){
+				return false;
+			}
+			
+			//work out where the drag anchor is
+			var x = e.pageX-(activeItem.height()/2);
+			var y = e.pageY-(activeItem.width()/2);
+			
+			//save the original position in case we cant place the item
+			if(!activeItem.origPos){
+				activeItem.origPos = {
+					x : x,
+					y : y
+				}
+			}
+			
+			//drag the item
+			activeItem.css({
+				"position"  : "absolute",
+				"top" 		: y,
+				"left" 		: x,
+				"z-index" 	: "999",
+				"opacity"	: 0.6,
+				"display"	: "block"
+			});
+			
+		}
+		
+		//attempt to place the item
+		function placeItem(e){
+			
+			//if no active item dont do owt
+			if(!activeItem){
+				return false;
+			}
+			
+			//define som vars needed later on
+			var onTargetY = false;
+			var onTargetX = false;
+			var remove 	  = false;
+			var collision = false;
+			
+			//check if item is being relesed withing the timeline bounds
+			if(e.pageY > el.position().top && e.pageY < el.position().top+el.height()){
+				onTargetY = true;
+			}
+			if(e.pageX > el.position().left && e.pageX < el.position().left+el.width()){
+				onTargetX = true;
+			}
+			
+			//if on target attempt to drop on timeline
+			if(onTargetX && onTargetY){
+				
+				//snap to the left or right if dropped at the left or right edges
+				var maxLeft  = el.position().left;
+				var maxRight = el.position().left+el.width()-activeItem.width();
+				x = e.pageX-(activeItem.width()/2);
+				if(x < maxLeft){
+					x = maxLeft;
+				}else if(x > maxRight){
+					x = maxRight;
+				}
+				
+				//loop the items already on the timeline and check for collisions
+				$.each(placedItems,function(i,item){
+					var itemMin = item.position().left;
+					var itemMax = item.position().left+item.width();
+					if(x+activeItem.width() > itemMin && x < itemMax){
+						collision = true; 
+					}
+				});
+				y = el.position().top;
+				
+			}
+			
+			//if there is a collision or the item is dropped outside the timeline 
+			//set x and y back to original position and set removal flag to true
+			if(collision || !onTargetX || !onTargetY){
+				x = activeItem.origPos.x;
+				y = activeItem.origPos.y;
+				remove = true;
+			//if dropped inside the timeline and no collisions add item to the 
+			//array of items inside the timeline
+			}else{
+				placedItems.push(activeItem);
+			}
+			
+			//finally either animate the item back to where it started then remove it
+			//or snap it into the timeline in the space found
+			activeItem.animate({
+				top 	: y,
+				left 	: x
+			},{
+				duration : 300,
+				queue 	 : false,
+				complete : function(){
+					
+					//if remove flag set remove the item from the dom
+					if(remove){
+						$(this).remove();
+					}
+					
+					//some tidying up
+					activeItem.css("opacity",1);
+					activeItem = false;
+					
+				}
+			});
+			
+		}
+		
+	});
+
+
+		   </code></pre>
+		   </p>
+        </div>
+        </div>
+        <div id="footerwrap">
+        <div id="footer">
+		<p><strong><a href="../../fileview/default.aspx?~/experiments/Exp7/introduction.html"target="_blank">../../fileview/default.aspx?~/experiments/Exp7/introduction.html</a></strong></br>
+		   <strong><a href="../../fileview/default.aspx?~/experiments/Exp7/1.html"target="_blank">../../fileview/default.aspx?~/experiments/Exp7/1.html</a></strong></br>
+		   <strong><a href="../../fileview/default.aspx?~/experiments/Exp7/3.css"target="_blank">../../fileview/default.aspx?~/experiments/Exp7/3.css</a></strong></br>
+			<font color="black"><strong>References:</strong></font><br/>
+			<a href="http://www.fryed.co.uk/" target="_blank">Fryd Labs Experiment</a><br/>
+			<a href="https://www.google.com/" target="_blank">Google Search</a><br/>
+            <font color="black">&copy; <strong>UMANG MUKESH MEHTA</strong></font></p>
+        </div>
+        </div>
+    </div>
+</body>
+</html>
